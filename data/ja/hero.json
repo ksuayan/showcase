@@ -1,0 +1,14 @@
+{
+  "title": "ビジュアルストーリー＆クリエイティブコード",
+  "description": "ビジュアルストーリーテリングに焦点を当てた写真、ビデオ、オーディオプロジェクトのショーケース。",
+  "image": "/placeholder.svg?height=600&width=800",
+  "imageAlt": "ポートフォリオショーケース",
+  "primaryButton": {
+    "text": "記事を閲覧",
+    "url": "/articles"
+  },
+  "secondaryButton": {
+    "text": "メディアを探索",
+    "url": "/media"
+  }
+}

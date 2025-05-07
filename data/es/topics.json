@@ -1,0 +1,40 @@
+{
+  "topics": [
+    {
+      "name": "Fotografía",
+      "slug": "photography",
+      "description": "Explora el arte y la técnica de capturar imágenes impactantes",
+      "image": "/placeholder.svg?height=300&width=400"
+    },
+    {
+      "name": "Videografía",
+      "slug": "videography",
+      "description": "Descubre técnicas para crear contenido de video impactante",
+      "image": "/placeholder.svg?height=310&width=410"
+    },
+    {
+      "name": "Audio",
+      "slug": "audio",
+      "description": "Aprende sobre grabación, edición y producción de sonido",
+      "image": "/placeholder.svg?height=320&width=420"
+    },
+    {
+      "name": "Diseño",
+      "slug": "design",
+      "description": "Explora principios y prácticas de diseño visual",
+      "image": "/placeholder.svg?height=330&width=430"
+    },
+    {
+      "name": "Tecnología",
+      "slug": "technology",
+      "description": "Mantente actualizado sobre las últimas herramientas y tecnologías",
+      "image": "/placeholder.svg?height=340&width=440"
+    },
+    {
+      "name": "Arte",
+      "slug": "art",
+      "description": "Descubre enfoques artísticos y expresión creativa",
+      "image": "/placeholder.svg?height=350&width=450"
+    }
+  ]
+}

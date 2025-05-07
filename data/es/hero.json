@@ -1,0 +1,14 @@
+{
+  "title": "Historias Visuales & Código Creativo",
+  "description": "Una muestra de proyectos de fotografía, videos y audio con enfoque en la narrativa visual.",
+  "image": "/placeholder.svg?height=600&width=800",
+  "imageAlt": "Muestra de portafolio",
+  "primaryButton": {
+    "text": "Explorar Artículos",
+    "url": "/articles"
+  },
+  "secondaryButton": {
+    "text": "Explorar Medios",
+    "url": "/media"
+  }
+}

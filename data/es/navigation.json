@@ -1,0 +1,20 @@
+{
+  "logo": {
+    "text": "Portafolio",
+    "url": "/"
+  },
+  "links": [
+    {
+      "text": "Inicio",
+      "url": "/"
+    },
+    {
+      "text": "Artículos",
+      "url": "/articles"
+    },
+    {
+      "text": "Medios",
+      "url": "/media"
+    }
+  ]
+}

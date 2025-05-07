@@ -1,0 +1,14 @@
+{
+  "title": "Visual Stories & Creative Code",
+  "description": "A showcase of photography, videos, and audio projects with a focus on visual storytelling.",
+  "image": "/placeholder.svg?height=600&width=800",
+  "imageAlt": "Portfolio showcase",
+  "primaryButton": {
+    "text": "Browse Articles",
+    "url": "/articles"
+  },
+  "secondaryButton": {
+    "text": "Explore Media",
+    "url": "/media"
+  }
+}

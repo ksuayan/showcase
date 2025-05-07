@@ -1,0 +1,40 @@
+{
+  "topics": [
+    {
+      "name": "写真",
+      "slug": "photography",
+      "description": "魅力的な画像を捉える芸術と技術を探求する",
+      "image": "/placeholder.svg?height=300&width=400"
+    },
+    {
+      "name": "映像制作",
+      "slug": "videography",
+      "description": "インパクトのあるビデオコンテンツを作成するテクニックを発見する",
+      "image": "/placeholder.svg?height=310&width=410"
+    },
+    {
+      "name": "オーディオ",
+      "slug": "audio",
+      "description": "音声の録音、編集、制作について学ぶ",
+      "image": "/placeholder.svg?height=320&width=420"
+    },
+    {
+      "name": "デザイン",
+      "slug": "design",
+      "description": "ビジュアルデザインの原則と実践を探求する",
+      "image": "/placeholder.svg?height=330&width=430"
+    },
+    {
+      "name": "テクノロジー",
+      "slug": "technology",
+      "description": "最新のツールとテクノロジーについて最新情報を入手する",
+      "image": "/placeholder.svg?height=340&width=440"
+    },
+    {
+      "name": "アート",
+      "slug": "art",
+      "description": "芸術的アプローチと創造的表現を発見する",
+      "image": "/placeholder.svg?height=350&width=450"
+    }
+  ]
+}

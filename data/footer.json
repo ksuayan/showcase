@@ -1,0 +1,117 @@
+{
+  "columns": [
+    {
+      "title": "Kyo Suayan",
+      "links": [
+        {
+          "text": "Articles",
+          "url": "/articles",
+          "external": false
+        },
+        {
+          "text": "Images",
+          "url": "/media",
+          "external": false
+        },
+        {
+          "text": "Archive",
+          "url": "/archive",
+          "external": false
+        },
+        {
+          "text": "Sitemap XML",
+          "url": "/sitemap.xml",
+          "external": false
+        }
+      ],
+      "divider": true,
+      "additionalLinks": [
+        {
+          "text": "About Me",
+          "url": "/page/about",
+          "external": false
+        },
+        {
+          "text": "Work",
+          "url": "/page/work",
+          "external": false
+        },
+        {
+          "text": "Resume",
+          "url": "https://cdn.suayan.com/pdf/20241005+-+Kyo+Suayan.pdf",
+          "external": true
+        },
+        {
+          "text": "Artist CV",
+          "url": "/page/artist_cv",
+          "external": false
+        },
+        {
+          "text": "Contact",
+          "url": "/page/contact",
+          "external": false
+        }
+      ]
+    },
+    {
+      "title": "Elsewhere",
+      "links": [
+        {
+          "text": "Facebook",
+          "url": "https://www.facebook.com/ksuayan",
+          "external": true
+        },
+        {
+          "text": "LinkedIn",
+          "url": "https://www.linkedin.com/in/ksuayan/",
+          "external": true
+        },
+        {
+          "text": "GitHub",
+          "url": "https://github.com/ksuayan",
+          "external": true
+        },
+        {
+          "text": "Instagram",
+          "url": "https://instagram.com/ksuayan",
+          "external": true
+        },
+        {
+          "text": "Youtube",
+          "url": "https://youtube.com/ksuayan",
+          "external": true
+        },
+        {
+          "text": "Vimeo",
+          "url": "https://vimeo.com/ksuayan",
+          "external": true
+        },
+        {
+          "text": "SoundCloud",
+          "url": "https://soundcloud.com/ksuayan",
+          "external": true
+        }
+      ]
+    },
+    {
+      "title": "Legal",
+      "links": [
+        {
+          "text": "Terms & Conditions",
+          "url": "/article/terms-and-conditions",
+          "external": false
+        },
+        {
+          "text": "Copyright Notice",
+          "url": "/article/copyright-notice",
+          "external": false
+        },
+        {
+          "text": "Privacy Policy",
+          "url": "/article/privacy-policy",
+          "external": false
+        }
+      ]
+    }
+  ]
+}

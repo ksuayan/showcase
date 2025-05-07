@@ -4,7 +4,6 @@
 
 @layer base {
   :root {
-    --border: 214.3 31.8% 91.4%;
     --background: 0 0% 100%;
     --foreground: 217 19% 27%;
     --card: 0 0% 100%;
@@ -52,10 +51,10 @@
 
 @layer base {
   * {
-    @apply border-[hsl(var(--border))];
+    @apply border-border;
   }
   body {
-    @apply bg-[hsl(var(--background))] text-[hsl(var(--foreground))];
+    @apply bg-background text-foreground font-sans;
   }
   h1,
   h2,
@@ -63,7 +62,7 @@
   h4,
   h5,
   h6 {
-    @apply font-serif font-normal tracking-wide text-slate-700;
+    @apply font-serif font-normal tracking-wide text-slate-700 dark:text-slate-200;
   }
   pre,
   code {
@@ -75,6 +74,36 @@
   li {
     @apply font-sans;
   }
+
+  /* Improved focus styles for accessibility */
+  :focus-visible {
+    @apply outline-none ring-2 ring-primary ring-offset-2 ring-offset-background;
+  }
+
+  /* Improved link focus for keyboard navigation */
+  a:focus-visible {
+    @apply outline-none ring-2 ring-primary rounded-sm;
+  }
+
+  /* Improved button focus for keyboard navigation */
+  button:focus-visible {
+    @apply outline-none ring-2 ring-primary rounded-sm;
+  }
+}
+
+/* Explicitly set font families */
+.font-sans {
+  font-family: var(--font-plex-sans), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+.font-serif {
+  font-family: var(--font-plex-serif), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.font-mono {
+  font-family: var(--font-plex-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
 }
 
 .prose {
@@ -97,7 +126,7 @@
 .prose h2,
 .prose h3,
 .prose h4 {
-  @apply font-serif font-normal tracking-wide text-slate-700;
+  @apply font-serif font-normal tracking-wide text-slate-700 dark:text-slate-200;
 }
 
 .prose p {
@@ -169,4 +198,51 @@
 
 .mobile-menu-footer {
   @apply mt-auto pt-8 border-t;
+}
+
+/* Accessibility improvements */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:focus,
+.sr-only-focusable:active {
+  position: static;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+/* High contrast mode improvements */
+@media (forced-colors: active) {
+  button,
+  a {
+    @apply border border-current;
+  }
+
+  img {
+    @apply border border-current;
+  }
+}
+
+/* Fix for dark mode transitions */
+html.dark {
+  color-scheme: dark;
+}
+
+/* Ensure theme transitions are smooth */
+* {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }

@@ -1,0 +1,14 @@
+{
+  "languageSelector": "言語を選択",
+  "skipToContent": "コンテンツにスキップ",
+  "darkMode": "ダークモード",
+  "lightMode": "ライトモード",
+  "systemMode": "システムモード",
+  "toggleTheme": "テーマを切り替え",
+  "viewAll": "すべて表示",
+  "showMore": "もっと見る",
+  "showLess": "表示を減らす",
+  "backToHome": "ホームに戻る",
+  "latestArticles": "最新の記事",
+  "exploreTopics": "トピックを探索"
+}
